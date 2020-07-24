@@ -41,9 +41,9 @@ const IndexPage = () => {
   } else if (lang === "IT") {
     newQuote = "Nuova citazione"
     currentQuote = "Citazione di oggi"
-    blurb = "Avendo per molti anni lavorato con i linguaggi umani, trovo affascinante il modo in cui noi, gli umani, riescano a ‘comunicare’ con i computer tramite i linguaggi artificiali. E benché la costruzione di senso nei due mondi si imposti in modi molto diversi, provo lo stesso piacere nella costruzione stessa di vari oggetti, che si tratti di biciclette, applicazioni informatiche o giochi di parole."
+    blurb = "Dopo diversi anni di lavoro come traduttore e insegnante di lingue, allargo i miei orrizonti verso l’informatica. Mi affascinano le lingue e le parole, ma ciò che mi provoca il più grande piacere è senz'altro costruire oggetti, che si tratti di bici, applicazioni o giochi di parole."
   }
-  let quotes = ["'The best thing about meals is having something to eat between them.' - Richard W. Hatch", "'Nude Descending a Staircase still exists, but its effect is softened now, as it occupies the space it created for itself.' - Michael Nesmith", "'Perhaps home is not a place but simply an irrevocable condition.' - James Baldwin"]
+  let quotes = ["'It will be a little late for breakfast, and a little early for lunch... So I shall be eating between meals. Everybody knows that is joyous. In fact, I am sure that one of the best things about meals is to eat between them.' - Richard W. Hatch", "'Nude Descending a Staircase still exists, but its effect is softened now, as it occupies the space it created for itself.' - Michael Nesmith", "'Perhaps home is not a place but simply an irrevocable condition.' - James Baldwin"]
 
   let quotesLength = quotes.length
   console.log(quotesLength)

@@ -1,0 +1,15 @@
+@import "variables";
+
+.contactInfo {
+  text-align: center;
+  p {
+    font-size: 36px ;
+    line-height: 80px ;
+  }
+  @media screen and (max-width: 767px) {
+    p {
+      font-size: 18px;
+      line-height: 30px ;
+    }
+  }
+}

@@ -82,9 +82,9 @@ const ContactForm = () => {
           {/*  </Form>*/}
           {/*</Modal.Body>*/}
           <Modal.Body>
-            <div style={{ textAlign: "center" }}>
-              <h2>{email} anismemon096@gmail.com</h2>
-              <h2>{phone} +1 802 355 6227</h2>
+            <div className="contactInfo">
+              <p>{email} anismemon096@gmail.com</p>
+              <p>{phone} +1 802 355 6227</p>
             </div>
           </Modal.Body>
         </Modal> : null}
