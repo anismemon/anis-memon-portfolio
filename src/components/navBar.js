@@ -2,7 +2,7 @@ import React, { useContext } from "react"
 import { Link } from "gatsby"
 import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap"
 import { store } from "./store"
-import CV from "../../public/files/Anis-Memon-Resume.pdf"
+import CV from "../../public/Anis-Memon-Resume.pdf"
 
 const CustomNavBar = (props) => {
   console.log(props.pageInfo)
