@@ -1,0 +1,62 @@
+@import "variables";
+
+.screenshot {
+  width: 85%;
+  height: 75%;
+  max-width: 85%;
+  max-height: auto;
+  border-color: dimgray;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-radius: 3%;
+  margin: 12%;
+}
+
+.buffer {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.image-wrapper {
+  text-align: center;
+  img {
+    z-index: 0;
+  };
+  img:hover {
+    opacity: 0.5;
+  };
+  p {
+    color: dimgrey;
+    font-size: 115%;
+    margin-top: -10%;
+    margin-left: 10%;
+  }
+}
+
+//.centered {
+//  text-align: center;
+//}
+//#pefa {
+//  background-image: url("../images/pefa.png");
+//  background-size: 90% 90%;
+//  //width: 85%;
+//  //height: 75%;
+//  //max-width: 85%;
+//  //max-height: auto;
+//  border-color: dimgray;
+//  border-width: 0.5rem;
+//  border-style: solid;
+//  border-radius: 3%;
+//  margin: 5%;
+//}
+.text-block {
+  position: absolute;
+  //bottom: 20px;
+  //right: 20px;
+  background-color: black;
+  color: white;
+  //padding-left: 20px;
+  //padding-right: 20px;
+}
+
+

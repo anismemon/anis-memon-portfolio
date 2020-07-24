@@ -1,45 +1,61 @@
+import React, { useContext } from "react"
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { store } from "./store"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      // marginBottom: `1.45rem`,
-      // marginLeft: `7rem`
-      margin: `0 15rem 1.45rem`
-    }}
-  >
-    <div
+const Header = () => {
+
+  // variables from state
+
+  const globalStore = useContext(store)
+  const lang = globalStore.state.lang
+  console.log(lang)
+
+  // local variables + translations
+
+  let title = "Welcome"
+
+  if (lang === 'FR') {
+    title = "Bienvenue"
+  } else if (lang === 'IT') {
+    title = 'Benvenuti'
+  }
+
+  return (
+    <header
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,        
-        padding: `1.45rem 1.0875rem`,
-        textAlign: `center`,
+        background: `#20232a`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `1.45rem 1.0875rem`,
+          textAlign: `center`,
+        }}
+      >
+        <h1 style={{ margin: 0 }}>
+          <Link
+            to="/"
+            style={{
+              color: `white`,
+              textDecoration: `none`,
+            }}
+          >
+            Anis Memon
+          </Link>
+        </h1>
+      </div>
+    </header>
+  )
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+// Header.propTypes = {
+//   siteTitle: PropTypes.string,
+// }
+//
+// Header.defaultProps = {
+//   siteTitle: ``,
+// }
 
 export default Header
