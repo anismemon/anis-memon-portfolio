@@ -26,7 +26,7 @@ module.exports = {
         background_color: `#20232a`,
         theme_color: `#20232a`,
         display: `minimal-ui`,
-        icon: `src/images/noun-Language-27733910.png`, // This path is relative to the root of the site.
+        icon: `src/images/noun-Language-2733910.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-fontawesome-css',
