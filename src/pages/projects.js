@@ -27,7 +27,7 @@ const ProjectsPage = (props) => {
   let tictac = "JavaScript, HTML, CSS"
   let yelp = "JavaScript, HTML, CSS, Leaflet Maps"
   let geoVerm = "React, Leaflet Maps"
-  let green = "React, Redux, React Native, Firebase, Expo"
+  let green = "Mobile App: React, Redux, React Native, Firebase, Expo"
   let audubon = "React, Bootstrap, Firebase, MongoDB, Express"
   let guess = "Guess the number game (human guesses the computer's or computer guesses the human's!)"
   let zork = "Zorkington - a text adventure game!"
@@ -64,7 +64,7 @@ const ProjectsPage = (props) => {
         {/*/!*<div className="buffer"></div>*!/*/}
         <Row className="justify-content-center">
           <Col lg={true} className="image-wrapper">
-            <a href="https://github.com/BurlingtonCodeAcademy/geo-vermonter-anis-michael" target="_blank"
+            <a href="https://geovermonter.herokuapp.com/" target="_blank"
                rel="noopener noreferrer"><img className='screenshot' src={geovermonter} alt='screenshot of webpage'
                                               title='geovermonter'
             /></a>

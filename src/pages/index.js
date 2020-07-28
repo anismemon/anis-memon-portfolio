@@ -32,11 +32,11 @@ const IndexPage = () => {
   // local variables + translations
 
   let newQuote = "New quotation"
-  let blurb = "I am an emerging full-stack web developer, committed to my new career direction building on years of work experience in the fields of translation and education. I enjoy putting things together and find quite a few similarities between building bikes with my hands and apps with code. I also like to read and think about language. Check out the quotes! (Beware: there are not many yet!)"
+  let blurb = "I am an emerging full-stack web developer, committed to my new career direction building on years of work experience in the fields of translation and education. I enjoy putting things together and find quite a few similarities between building bikes with my hands and apps with code. I also like to read and think about language. Check out the quotes!"
   let currentQuote = "Here's a quotation I like"
   if (lang === "FR") {
     newQuote = "Nouvelle citation"
-    currentQuote = "Citation du jour (il n'y en a pas beaucoup !)"
+    currentQuote = "Citation du jour"
     blurb = "Après plusieurs années dans la traduction et l’enseignement des langues j’embrasse ma nouvelle carrière dans l’informatique. J’adore les langues et les mots, mais ce que j’aime en particulier c’est la construction d’objets, qu’il s’agisse de vélos, d’applis ou de jeux de mots. "
   } else if (lang === "IT") {
     newQuote = "Nuova citazione"
@@ -87,6 +87,12 @@ const IndexPage = () => {
               <p>{blurb}</p>
 
             </Col>
+          </Row>
+          <Row>
+            <div className="spacer">
+              <div className="mask"></div>
+              {/*<span><i></i></span>*/}
+            </div>
           </Row>
           <Row>
             <Col><p>{currentQuote}: {quote}</p>

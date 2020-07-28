@@ -81,7 +81,7 @@ const ContactForm = () => {
           {/*    </Form.Group>*/}
           {/*  </Form>*/}
           {/*</Modal.Body>*/}
-          <Modal.Body>
+          <Modal.Body style={{backgroundColor: "#D3D3DC"}}>
             <div className="contactInfo">
               <p>{email} anismemon096@gmail.com</p>
               <p>{phone} +1 802 355 6227</p>
