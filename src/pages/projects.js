@@ -73,7 +73,7 @@ const ProjectsPage = (props) => {
             </div>
           </Col>
           <Col lg={true} className="image-wrapper">
-            <a href="https://github.com/BurlingtonCodeAcademy/yelpington-anismemon" target="_blank"
+            <a href="https://yelpington-17bef.web.app/" target="_blank"
                rel="noopener noreferrer"><img className='screenshot' src={yelpington} alt='screenshot of webpage'
                                               title='yelpington'
             /></a>
@@ -84,7 +84,7 @@ const ProjectsPage = (props) => {
         </Row>
         <Row className="justify-content-center">
           <Col lg={true} className="image-wrapper">
-            <a href="https://yelpington-17bef.web.app/" target="_blank"
+            <a href="https://github.com/anismemon/remock-webpage" target="_blank"
                rel="noopener noreferrer"><img className='screenshot' src={remockScreen} alt='screenshot of webpage'
                                               title='remock'/></a>
             <div>
