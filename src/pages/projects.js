@@ -84,7 +84,7 @@ const ProjectsPage = (props) => {
         </Row>
         <Row className="justify-content-center">
           <Col lg={true} className="image-wrapper">
-            <a href="https://github.com/BurlingtonCodeAcademy/remock-rob-and-anis" target="_blank"
+            <a href="https://yelpington-17bef.web.app/" target="_blank"
                rel="noopener noreferrer"><img className='screenshot' src={remockScreen} alt='screenshot of webpage'
                                               title='remock'/></a>
             <div>
