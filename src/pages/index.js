@@ -43,7 +43,7 @@ const IndexPage = () => {
     currentQuote = "Citazione di oggi"
     blurb = "Dopo diversi anni di lavoro come traduttore e insegnante di lingue, allargo i miei orrizonti verso il web development. Mi affascinano le lingue e le parole, ma ciò che veramente mi appassiona è la costruzione di oggetti, che si tratti di bici, giochi di parole o applicazioni."
   }
-  let quotes = ["'It will be a little late for breakfast, and a little early for lunch... So I shall be eating between meals. Everybody knows that is joyous. In fact, I am sure that one of the best things about meals is to eat between them.' - Richard W. Hatch", "'Nude Descending a Staircase still exists, but its effect is softened now, as it occupies the space it created for itself.' - Michael Nesmith", "'Perhaps home is not a place but simply an irrevocable condition.' - James Baldwin"]
+  let quotes = ["'It will be a little late for breakfast, and a little early for lunch... So I shall be eating between meals. Everybody knows that is joyous. In fact, I am sure that one of the best things about meals is to eat between them.' - Richard W. Hatch", "'Nude Descending a Staircase still exists, but its effect is softened now, as it occupies the space it created for itself.' - Michael Nesmith", "'Perhaps home is not a place but simply an irrevocable condition.' - James Baldwin", "« Y a pas pire que la réponse à une question. » - Henri Süss"]
 
   let quotesLength = quotes.length
   console.log(quotesLength)

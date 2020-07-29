@@ -92,7 +92,7 @@ const ProjectsPage = (props) => {
             </div>
           </Col>
           <Col lg={true} className="image-wrapper">
-            <a href="https://github.com/BurlingtonCodeAcademy/tic-tac-toe-anismemon" target="_blank"
+            <a href="https://basic-tic-tac-toe-da832.web.app/" target="_blank"
                rel="noopener noreferrer"><img className='screenshot' src={tictactoe} alt='screenshot of webpage'
                                               title='tictactoe'/></a>
             <div>
